@@ -6,7 +6,7 @@ https://le-quai-anthique.cocoweb10.fr/
 ![Le logo](https://github.com/ChristelleCossard/restococo/blob/main/images/logo-quai-antique.jpg)
 
 ## Le lien vers mon logiciel de gestion de projet pour ce projet, Trello :
-https://trello.com/invite/b/DaA1y93k/ATTI68077e5af5350f99536b49840fc35a1eC93AAB80/ecf-ete-2023-restaurant
+
 
 ## Un projet php / résumé projet
 <p>Paintfab est une entreprise  spécialisée dans la fabrication industrielle de produits et peintures pour le bâtiment et l’industrie.
