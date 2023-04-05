@@ -5,7 +5,7 @@
 https://le-quai-anthique.cocoweb10.fr/
 ![Le logo](https://github.com/ChristelleCossard/restococo/blob/main/images/logo-quai-antique.jpg)
 
-## Le lien vers votre logiciel de gestion de projet pour cet ECF Trello :
+## Le lien vers mon logiciel de gestion de projet pour ce projet, Trello :
 https://trello.com/invite/b/DaA1y93k/ATTI68077e5af5350f99536b49840fc35a1eC93AAB80/ecf-ete-2023-restaurant
 
 ## Un projet php
@@ -22,11 +22,11 @@ https://trello.com/invite/b/DaA1y93k/ATTI68077e5af5350f99536b49840fc35a1eC93AAB8
 
 
 
-### Déployez en local et en ligne
+## Déployez en local et en ligne
 
 Clonez ce repository et placer le projet à la racine du serveur; importez le fichier cocoresto.sql dans votre serveur de base de données.Modifiez le fichier lib/pdo.php selon vos identifiants de connection à votre serveur.
 
-### code d'authentification:
+## code d'authentification:
 
 --> pour l'admin:
 login: admin@coco.com
