@@ -21,9 +21,9 @@ Le client, qui est un utilisateur authentifié et possédant un compte client, a
 
 ## Documents complémentaires joints au projet
 
-+ [1-cocoresto.sql](https://github.com/ChristelleCossard/restococo/blob/main/cocoresto.sql)
++ [ ]
 
-+ [2-Copie à rendre.pdf](https://github.com/ChristelleCossard/restococo/blob/main/00-Documents-complementaires/ECF_GraduateDeveloppeur_Juillet2023_copiearendre_COSSARD_Christelle.pdf)
++ [ ]
 
 + [ ]
 
