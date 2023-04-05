@@ -6,6 +6,7 @@ https://le-quai-anthique.cocoweb10.fr/
 ![Le logo](https://github.com/ChristelleCossard/restococo/blob/main/images/logo-quai-antique.jpg)
 
 ## Le lien vers mon logiciel de gestion de projet pour ce projet, Trello :
+https://trello.com/invite/b/wtlBP1kv/ATTI74d8d40d3954b25fe6bb01ea7e70fa7c252A9532/dossier-projet-paintfab
 
 
 ## Un projet php / résumé projet
