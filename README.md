@@ -8,7 +8,16 @@ https://le-quai-anthique.cocoweb10.fr/
 ## Le lien vers mon logiciel de gestion de projet pour ce projet, Trello :
 https://trello.com/invite/b/DaA1y93k/ATTI68077e5af5350f99536b49840fc35a1eC93AAB80/ecf-ete-2023-restaurant
 
-## Un projet php
+## Un projet php / résumé projet
+<p>Paintfab est une entreprise  spécialisée dans la fabrication industrielle de produits et peintures pour le bâtiment et l’industrie.
+Paintfab est une entreprise fictive, imaginée pour les besoins du projet dans le cadre de ma formation Studi, elle découle de mon expérience professionnelle de technicienne chimiste et responsable fabrication dans une entreprise similaire qui n’existe plus.</p>
+<p>
+L'entreprise souhaite un site internet lui permettant de présenter ses produits avec leurs documentations techniques et permettant aux clients authentifiés de réserver ou commander des produits.
+Un ou plusieurs administrateurs sont chargés du contenu du site (publication des produits et de leurs documentations techniques : ajout, modification, suppression).Ces administrateurs font partie du personnel de l'entreprise et gèrent le contenu via un pannel d'administration.
+Une galerie d'images des produits permet de compléter la documentation technique en montrant un visuel des effets des produits. Cette galerie d'image sera gérée par les administrateurs.(ajout, modification et suppression)
+L'utilisateur pourra calculer la quantité dont il a besoin en produits en saisissant ses données de surface dans un formulaire.
+Le client, qui est un utilisateur authentifié et possédant un compte client, aura accès à un espace web  de compte personnel regroupant ses commandes.
+</p>
 
 ## Documents complémentaires joints au projet
 
