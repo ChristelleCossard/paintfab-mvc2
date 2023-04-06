@@ -4,7 +4,7 @@
 ## Le lien de la version en ligne de l’application web :
 https://paintfab-mvc.cocoweb10.fr/
 <br>
-![Le logo](https://github.com/ChristelleCossard/restococo/blob/main/images/logo-quai-antique.jpg)
+![Le logo]https://github.com/ChristelleCossard/paintfab-mvc2/blob/main/images/logo-paintfab.png
 
 ## Le lien vers mon logiciel de gestion de projet pour ce projet, Trello :
 https://trello.com/invite/b/wtlBP1kv/ATTI74d8d40d3954b25fe6bb01ea7e70fa7c252A9532/dossier-projet-paintfab
