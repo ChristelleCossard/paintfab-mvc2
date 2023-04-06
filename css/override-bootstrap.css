@@ -54,10 +54,16 @@
 
 h1 {
   color: var(--primary);
+  font-family: 'Alkatra', cursive;
 }
 
 h2, h3 {
     color: var(--secondary);
+    font-family: 'Alkatra', cursive;
+}
+
+p {
+    font-family: 'Alkatra', cursive; 
 }
 
 .card-img-top {

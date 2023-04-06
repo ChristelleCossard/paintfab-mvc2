@@ -2,7 +2,7 @@
 <h1>"Paintfab": Projet de création d'un site d'une entreprise virtuelle fabriquant des peintures industrielles - Projet pour mon dossier projet Studi été 2023.</h1>
 
 ## Le lien de la version en ligne de l’application web :
-https://le-quai-anthique.cocoweb10.fr/
+https://paintfab-mvc.cocoweb10.fr/
 ![Le logo](https://github.com/ChristelleCossard/restococo/blob/main/images/logo-quai-antique.jpg)
 
 ## Le lien vers mon logiciel de gestion de projet pour ce projet, Trello :
