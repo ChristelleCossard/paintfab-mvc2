@@ -6,7 +6,7 @@
   $mainMenu = [
     'index.php' => 'Accueil', 
     'produits.php' => 'Nos produits',
-    
+    'essais1.php' => 'Présentation',
     
   ];
   
