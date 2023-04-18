@@ -2,7 +2,7 @@
 <h1>"Paintfab": Projet de création d'un site d'une entreprise virtuelle fabriquant des peintures industrielles - Projet pour mon dossier projet Studi été 2023.</h1>
 
 ## Le lien de la version en ligne de l’application web :
-https://paintfab-mvc.cocoweb10.fr/
+https://paintfab.cocoweb10.fr/
 <br>
 ![Le logo](https://github.com/ChristelleCossard/paintfab-mvc2/blob/main/images/logo-paintfab.png)
 
