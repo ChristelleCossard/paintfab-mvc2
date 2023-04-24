@@ -7,7 +7,7 @@ if(!isset($_SESSION['user']) && $user['role'] == "client") {
 }
 
 require_once('lib/tools.php');
-//require_once('lib/dish.php');
+require_once('lib/product.php');
 //require_once('lib/category.php');
 
 ?>
