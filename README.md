@@ -35,7 +35,7 @@ Le client, qui est un utilisateur authentifié et possédant un compte client, a
 
 ## Déployez en local et en ligne
 
-Clonez ce repository et placer le projet à la racine du serveur; importez le fichier cocoresto.sql dans votre serveur de base de données.Modifiez le fichier lib/pdo.php selon vos identifiants de connection à votre serveur.
+Clonez ce repository et placer le projet à la racine du serveur; importez le fichier paintfab.sql dans votre serveur de base de données.Modifiez le fichier lib/pdo.php selon vos identifiants de connection à votre serveur.
 
 ## code d'authentification:
 
