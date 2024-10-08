@@ -2,14 +2,14 @@
 require_once('templates/header.php');
 
 ?>
-
+ 
 <h1>Calcul de la consommation d'un produit.</h1>
+<link rel="stylesheet" href="style.css">
 
-<div class="container">
         
         <form id="quiz-form">
             
-            
+       
                 <div class="question">
                     <p>1. Quelle est la capitale de la France?</p>
                     <label><input type="radio" name="q1" value="Paris">Paris</label>
@@ -32,11 +32,11 @@ require_once('templates/header.php');
 
             <button type="button" onclick="submitQuiz()">Sousmettre</button>
         
-            
+            <div id="result"> SCORE:</div>
         </form>
-        <div id="result"> SCORE:</div>
-
-    </div>
+    
+         
+    
     <script src="script.js"></script>
 
 
