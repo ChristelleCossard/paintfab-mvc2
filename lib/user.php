@@ -6,7 +6,7 @@ function addUser(PDO $pdo, string $first_name, string $last_name, string $email,
 
     $password = password_hash($password, PASSWORD_DEFAULT);
 
-    $role = 'client';
+    //$role = 'client';
     $query->bindParam(':first_name', $first_name, PDO::PARAM_STR);
     $query->bindParam(':last_name', $last_name, PDO::PARAM_STR);
     $query->bindParam(':email', $email, PDO::PARAM_STR);

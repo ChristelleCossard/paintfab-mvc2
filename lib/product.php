@@ -52,3 +52,15 @@ function getProductImage (string|null $image){
         $query->bindParam(':image', $image, PDO::PARAM_STR);
         return $query->execute();
     }
+
+    function getTotalProduct(PDO $pdo):int
+{
+    $sql = "SELECT COUNT(*) as total FROM products;";
+
+    $query = $pdo->prepare($sql);
+
+    $query->execute();
+    $result = $query->fetch(PDO::FETCH_ASSOC);
+
+    return $result['total'];
+}

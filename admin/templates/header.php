@@ -1,8 +1,7 @@
 <?php
 $adminMenu = [
     'index.php' => 'Accueil',
-    'articles.php' => 'Articles',
-    'cars.php' => 'Véhicules',
+    'products.php' => 'Produits',
 ];
 ?>
 
@@ -41,7 +40,7 @@ $adminMenu = [
             <hr>
             <div class="dropdown">
                 <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                    <strong><?= $_SESSION["user"]["first_name"]; ?></strong>
+                    <strong>Admin</strong>
                 </a>
                 <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
                     <li><a class="dropdown-item" href="/logout.php">Déconnexion</a></li>

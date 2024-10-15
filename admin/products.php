@@ -4,7 +4,7 @@ require_once __DIR__ . "/../lib/session.php";
 adminOnly();
 
 require_once __DIR__ . "/../lib/pdo.php";
-require_once __DIR__ . "/../lib/article.php";
+require_once __DIR__ . "/../lib/product.php";
 require_once __DIR__ . "/templates/header.php";
 
 if (isset($_GET['page'])) {
@@ -12,20 +12,20 @@ if (isset($_GET['page'])) {
 } else {
   $page = 1;
 }
-$articles = getArticles($pdo, _ADMIN_ITEM_PER_PAGE, $page);
+$products = getProducts($pdo, _ADMIN_ITEM_PER_PAGE, $page);
 
 
-$totalArticles = getTotalArticle($pdo);
+$totalProducts = getTotalProduct($pdo);
 
-$totalPages = ceil($totalArticles / _ADMIN_ITEM_PER_PAGE);
+$totalPages = ceil($totalProducts / _ADMIN_ITEM_PER_PAGE);
 
 ?>
 
 
-<h1 class="display-5 fw-bold text-body-emphasis">Articles</h1>
+<h1 class="display-5 fw-bold text-body-emphasis">Produits</h1>
 <div class="d-flex gap-2 justify-content-left py-5">
   <a class="btn btn-primary d-inline-flex align-items-left" href="article.php">
-    Ajouter un article
+    Ajouter un produit
   </a>
 </div>
 <table class="table">
@@ -37,12 +37,12 @@ $totalPages = ceil($totalArticles / _ADMIN_ITEM_PER_PAGE);
     </tr>
   </thead>
   <tbody>
-    <?php foreach ($articles as $article) { ?>
+    <?php foreach ($products as $product) { ?>
       <tr>
-        <th scope="row"><?= $article["id"]; ?></th>
-        <td><?= $article["title"]; ?></td>
-        <td><a href="article.php?id=<?= $article['id'] ?>">Modifier</a>
-          | <a href="article_delete.php?id=<?= $article['id'] ?>" onclick="return confirm('Êtes-vous sûr de vouloir supprimer cet article ?')">Supprimer</a></td>
+        <th scope="row"><?= $product["id"]; ?></th>
+        <td><?= $product["name"]; ?></td>
+        <td><a href="product.php?id=<?= $product['id'] ?>">Modifier</a>
+          | <a href="product_delete.php?id=<?=$product['id'] ?>" onclick="return confirm('Êtes-vous sûr de vouloir supprimer ce produit ?')">Supprimer</a></td>
       </tr>
     <?php } ?>
   </tbody>

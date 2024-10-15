@@ -2,6 +2,8 @@
   define('_PRODUCTS_IMG_PATH_', 'uploads/products/');
   define('_ASSETS_IMAGES_FOLDER_', '/images/');
   define('_HOME_PRODUCTS_LIMIT_', 6);
+  define("_ADMIN_ITEM_PER_PAGE", 10);
+
 /*
   define("_DB_SERVER_", "mysql-cocodev.alwaysdata.net");
   define("_DB_NAME_", "cocodev_garage");
