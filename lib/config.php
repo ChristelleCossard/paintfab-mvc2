@@ -41,6 +41,7 @@
     'produits.php' => 'Nos produits',
     'essais1.php' => 'Présentation',
     'consommation.php' => 'Consommation',
+    'contact.php' => 'Contact',
   ];
   
   $mainMenu2 = [

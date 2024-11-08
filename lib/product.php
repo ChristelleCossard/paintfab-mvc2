@@ -55,7 +55,7 @@ function getProductImage (string|null $image){
 
     function getTotalProduct(PDO $pdo):int
 {
-    $sql = "SELECT COUNT(*) as total FROM products;";
+    $sql = "SELECT COUNT(*) as total FROM products";
 
     $query = $pdo->prepare($sql);
 
