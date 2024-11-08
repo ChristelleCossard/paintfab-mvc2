@@ -1,0 +1,57 @@
+<?php
+require_once __DIR__ . "/templates/header.php";
+
+require_once __DIR__ . "/../lib/pdo.php";
+//require_once __DIR__ . "/../lib/article.php";
+require_once __DIR__ . "/../lib/car.php";
+
+if (isset($_GET["page"])) {
+    $page = (int)$_GET["page"];
+} else {
+    $page = 1;
+}
+
+$cars = getCars($pdo, _ADMIN_ITEM_PER_PAGE, $page);
+
+$totalCars = getTotalCar($pdo);
+
+// 55/10 => 5.5 => 6
+//$totalPages =4;
+$totalPages = ceil($totalCars / _ADMIN_ITEM_PER_PAGE);
+?>
+
+<h1 class="py-5">Liste des véhicules</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Titre</th>
+            <th scope="col">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        <?php foreach ($cars as $car) { ?>
+            <tr>
+                <th scope="row"><?=$car["id"] ?></th>
+                <td><?=$car["title"] ?></td>
+                <td>Modifier | Supprimer</td>
+            </tr>
+        <?php } ?>
+    </tbody>
+</table>
+
+<?php if ($totalPages > 1) { ?>
+<nav aria-label="Page navigation example">
+  <ul class="pagination">
+   <?php for($i=1; $i<=  $totalPages; $i++) { ?> 
+    <li class="page-item  <?php if ($i === $page) { echo "active"; } ?>"><a class="page-link" href="?page=<?=$i;?>"><?=$i;?></a></li>
+    <?php } ?> 
+  </ul>
+</nav>
+<?php } ?>
+
+<?php
+require_once __DIR__ . "/templates/footer.php";
+
+?>
