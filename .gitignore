@@ -1,2 +1,4 @@
 # retrait de tous les fichiers tests et essais pour github
 /tests
+/lib/config-dist.php
+/lib/pdo-dist.php
