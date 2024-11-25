@@ -24,7 +24,7 @@ $totalPages = ceil($totalProducts / _ADMIN_ITEM_PER_PAGE);
 
 <h1 class="display-5 fw-bold text-body-emphasis">Produits</h1>
 <div class="d-flex gap-2 justify-content-left py-5">
-  <a class="btn btn-primary d-inline-flex align-items-left" href="article.php">
+  <a class="btn btn-primary d-inline-flex align-items-left" href="ajout_modification_produit.php">
     Ajouter un produit
   </a>
 </div>
