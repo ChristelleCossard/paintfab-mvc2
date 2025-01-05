@@ -2,6 +2,7 @@
 
 
  $pdo = new PDO('mysql:dbname='.DB_NAME.';host='.DB_HOST.';port=3308;charset=utf8', DB_USER, DB_PASSWORD);
+//$pdo = new PDO('mysql:dbname=cocodev_paintfab;host=mysql-cocodev.alwaysdata.net;cocodev, Vicky.10');
 
 /*
 try
